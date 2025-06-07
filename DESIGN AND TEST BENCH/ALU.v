@@ -1,5 +1,3 @@
-`timescale 1ns/1ps
-`include "defines.h"
 module ALU(clk,rst,ce,opa,opb,cin,mode,inp_valid,cmd,res,oflow,cout,g,l,e,err,ne                                                                                                             g,zero);
     input clk,rst,ce,mode,cin;
     input [1:0] inp_valid;
